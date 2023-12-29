@@ -20,13 +20,11 @@ int main (){
     
     int hasil= panjang*lebar;
     
-    switch ( hasil ) {
+    /* switch ( hasil ) {
         case <= -1:
         printf ( "Negatif Nyet" );
-    }
+    } */
     
-    
-    /*  
     
                     printf("Masukan Hitung: " );
     scanf( "%d", &hitung );
@@ -54,6 +52,8 @@ int main (){
  else{
        printf ( "Bro ada terjadi kesalahan");
    } 
+   
+   /*
    
    printf ( "\n");
    printf ( "\n");
