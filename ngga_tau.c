@@ -27,7 +27,7 @@ int main (){
       printf("1. Hitung Persegi\n");
       printf("2. Hitung Segi Tiga\n");
 
-      printf("Input Hitung (1 atau 2 : "); 
+      printf("Input Hitung ( 1 atau 2 ): "); 
       scanf("%d", &hitung);
     }
 
@@ -42,5 +42,8 @@ int main (){
 
         luas= panjang*lebar;
         printf( "Hasil dari Panjang X Lebar adalah = %d x %d = %d", panjang, lebar, luas);
+
+        default :
+        printf ( "Menu yang lu masukin ngga ada -_-");
     }
 }
