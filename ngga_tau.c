@@ -42,14 +42,34 @@ int main (){
         scanf( "%d", &lebar ); 
 
         // Ngitung dulu :v
-        luas= panjang*lebar;
+        luas= 1.2*panjang*lebar;
 
         if ( luas >=80 ){ 
+            printf( "Hasil dari 1.2 x Panjang X Lebar adalah = 1.2 x %d x %d = %d\n", panjang, lebar, luas);
+            printf( "Dan ini adalah Segi Tiga Besar");
+            return 0;
+        }
+        else if ( luas<=80) {
+            printf( "Ini Segi Tiga kecil:(");
+            return 0;
+        }
+
+        case 2 :
+
+        printf( "Masukan Panjang: ");
+        scanf( "%d", &panjang ); 
+
+        printf( "Masukan Lebar: ");
+        scanf( "%d", &lebar ); 
+
+        luas= panjang*lebar;
+
+        if ( luas >=150 ){ 
             printf( "Hasil dari Panjang X Lebar adalah = %d x %d = %d\n", panjang, lebar, luas);
             printf( "Dan ini adalah persegi Besar");
             return 0;
         }
-        else if ( luas<=80) {
+        else if ( luas<=150) {
             printf( "Ini persegi kecil:(");
             return 0;
         }
