@@ -3,36 +3,22 @@
 
 int main (){
     
-    int luas;
-    int jumlah_bangun;
-
-    int panjang;
-    int lebar;
-
-    int hitung;
-
-    printf( "Masukan Panjang: ");
-    scanf( "%d", &panjang ); 
+    int luas,jml_bangun,panjang,lebar,libur,hitung;
+    float i;
 
     printf( "Masukan Lebar: ");
-    scanf( "%d", &lebar ); 
+    scanf( "%d", &jml_bangun ); 
 
-    luas= panjang*lebar;
-
-    if ( luas <= 10 ){
-        printf( "Kurang dari 10 ");
-        return 0;
-    }
-    else {
+    for(i = 10; i <= jml_bangun; i++)
+    {
       // Text yang akan muncul di console
       printf("1. Hitung Luas Persegi\n");
       printf("2. Hitung Luas Segi Tiga\n");
 
       printf("Input Hitung ( 1 atau 2 ): "); 
       scanf("%d", &hitung);
-    }
 
-    switch ( hitung )
+        switch ( hitung )
     {
         case 1 :
         printf( "Masukan Panjang: ");
@@ -77,4 +63,5 @@ int main (){
         default :
         printf ( "Menu yang lu masukin ngga ada -_-");
     }
+  }
 }
