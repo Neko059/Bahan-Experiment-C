@@ -9,6 +9,8 @@ int main (){
     int panjang;
     int lebar;
 
+    int hitung;
+
     printf( "Masukan Panjang: ");
     scanf( "%d", &panjang ); 
 
@@ -19,5 +21,17 @@ int main (){
 
     if ( luas <= 10 ){
         printf( "Kurang dari 10 ");
+    }
+    else {
+      // Text yang akan muncul di console
+      printf("1. Hitung Persegi\n");
+      printf("2. Hitung Segi Tiga\n");
+
+      printf("Input Hitung (1 atau 2 : "); 
+      scanf("%d", &hitung);
+    }
+
+    switch ( hitung ){
+        
     }
 }
