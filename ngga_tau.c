@@ -13,7 +13,11 @@ int main (){
     scanf( "%d", &panjang ); 
 
     printf( "Masukan Lebar: ");
-    scanf( "%d", &panjang ); 
+    scanf( "%d", &lebar ); 
 
     luas= panjang*lebar;
+
+    if ( luas <= 10 ){
+        printf( "Kurang dari 10 ");
+    }
 }
