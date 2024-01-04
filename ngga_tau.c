@@ -25,8 +25,8 @@ int main (){
     }
     else {
       // Text yang akan muncul di console
-      printf("1. Hitung Persegi\n");
-      printf("2. Hitung Segi Tiga\n");
+      printf("1. Hitung Luas Persegi\n");
+      printf("2. Hitung Luas Segi Tiga\n");
 
       printf("Input Hitung ( 1 atau 2 ): "); 
       scanf("%d", &hitung);
