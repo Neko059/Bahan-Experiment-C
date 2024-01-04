@@ -31,7 +31,16 @@ int main (){
       scanf("%d", &hitung);
     }
 
-    switch ( hitung ){
-        
+    switch ( hitung )
+    {
+        case 1 :
+        printf( "Masukan Panjang: ");
+        scanf( "%d", &panjang ); 
+
+        printf( "Masukan Lebar: ");
+        scanf( "%d", &lebar ); 
+
+        luas= panjang*lebar;
+        printf( "Hasil dari Panjang X Lebar adalah = %d x %d = %d", panjang, lebar, luas);
     }
 }
