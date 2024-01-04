@@ -21,6 +21,7 @@ int main (){
 
     if ( luas <= 10 ){
         printf( "Kurang dari 10 ");
+        return 0;
     }
     else {
       // Text yang akan muncul di console
@@ -40,8 +41,18 @@ int main (){
         printf( "Masukan Lebar: ");
         scanf( "%d", &lebar ); 
 
+        // Ngitung dulu :v
         luas= panjang*lebar;
-        printf( "Hasil dari Panjang X Lebar adalah = %d x %d = %d", panjang, lebar, luas);
+
+        if ( luas >=80 ){ 
+            printf( "Hasil dari Panjang X Lebar adalah = %d x %d = %d\n", panjang, lebar, luas);
+            printf( "Dan ini adalah persegi Besar");
+            return 0;
+        }
+        else if ( luas<=80) {
+            printf( "Ini persegi kecil:(");
+            return 0;
+        }
 
         default :
         printf ( "Menu yang lu masukin ngga ada -_-");
